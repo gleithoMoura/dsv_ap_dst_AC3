@@ -1,0 +1,53 @@
+*{
+    font-family: 'Bree Serif', serif;
+}
+
+h1{
+    color: black;
+    text-align: center;
+    font-size: 50px;
+}
+
+header{
+    width: 100%;
+}
+
+.addimg{
+    margin-bottom: 7px;
+    margin-left: 46.4%;
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding: 3px;
+    opacity: 0.4;
+}
+
+.img{
+    margin: 0;
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding: 3px;
+    opacity: 0.4;
+}
+
+.fade1:hover{
+    animation: fade1 0.3s normal forwards;
+
+}
+
+input[type=text]{
+    width: 100%;
+}
+
+button{
+    display: inline-block;
+    margin: 0 auto;
+    opacity: 0.4;
+    border-radius: 3px;
+}
+
+@keyframes fade1{
+    
+    100%{
+        opacity: 1;
+    }
+}
